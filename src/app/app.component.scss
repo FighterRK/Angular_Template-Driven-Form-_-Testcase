@@ -1,0 +1,118 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    max-width: 800px;
+    height: 1000px;
+    margin: auto;
+    padding: 20px;
+
+    .title{
+        font-size: 28px;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 80px;
+        
+    }
+    form{
+        label{
+            font-size: 18px;
+            font-weight: 700;
+            margin-right: 10px;
+        }
+        input{
+            height: 30px;
+            padding: 10px;
+            
+        }
+        .dob{
+            width: 167px;
+        }
+        .email{
+            width: 223px;
+        }
+        .pwd{
+            width: 193px;
+        }
+        .mb{
+            width: 292px;
+            margin-top: 5px;
+        }
+        .pn{
+            width: 292px;
+            margin-top: 5px;
+            
+        }
+        .st{
+            margin-top: 25px;
+        }
+
+        span{
+            color: red;
+        }
+        .one{
+            margin-left: 108px;
+        }
+        .name{
+            margin-bottom: 10px;
+        }
+        .name2{
+            margin-bottom: 10px;
+            span{
+                margin-left: 108px;
+            }
+        }
+        .add{
+            margin-bottom: 10px;
+        }
+        .db{
+            margin-bottom: 10px;
+            span{
+                margin-left: 143px;
+            }
+        }
+        .em{
+            margin-bottom: 10px;
+            span{
+                margin-left: 116px;
+            }
+        }
+        .p{
+            margin-bottom: 10px;
+            span{
+                margin-left: 116px;
+            }
+        }
+        .country{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .state{
+            margin-bottom: 20px;
+        }
+        .btn{
+            text-align: center;
+            padding: 20px 25px;
+            border-style: none;
+            margin-left: 98px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            background-color: rgb(20, 146, 255);
+            border-radius: 10px;
+            cursor: pointer;
+        #btn{
+            background-color: rgb(20, 146, 255);
+            color: whitesmoke;
+            margin: 0;
+            border-style: none;
+            padding: 0;
+            font-size: 18px;
+            font-weight: 500;
+            cursor: pointer;
+            
+        }
+    }
+    }
+}
